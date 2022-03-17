@@ -1,5 +1,5 @@
 {% set name = "types-bleach" %}
-{% set version = "4.1.4" %}
+{% set version = "4.1.5" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/types-bleach-{{ version }}.tar.gz
-  sha256: 2d30c2c4fb6854088ac636471352c9a51bf6c089289800d2a8060820a01cd43a
+  sha256: 3eb40e73a844647056e34959578cd4a17a30429f49318c9b032c965e360bff2c
 
 build:
   number: 0

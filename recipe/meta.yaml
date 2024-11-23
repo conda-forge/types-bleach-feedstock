@@ -25,6 +25,7 @@ requirements:
     - setuptools
   run:
     - python >={{ python_min }}
+    - types-html5lib
 
 test:
   requires:

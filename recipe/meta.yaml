@@ -1,4 +1,4 @@
-{% set version = "6.2.0.20241123" %}
+{% set version = "6.2.0.20250512" %}
 
 {% set python_min = python_min | default("3.9") %}
 
@@ -8,7 +8,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/t/types-bleach/types_bleach-{{ version }}.tar.gz
-    sha256: dac5fe9015173514da3ac810c1a935619a3ccbcc5d66c4cbf4707eac00539057
+    sha256: 144c3f102727918ad08cb751495cb48b75d7301a89a0ae6adb08fa3384c20c29
   - url: https://raw.githubusercontent.com/python/typeshed/main/LICENSE
     sha256: 295f8538c94ae5c3043301cf7cff1c852dab6a786a8ddee471e061b40d5ecabe
 

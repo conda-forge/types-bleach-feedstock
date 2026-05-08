@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "6.3.0.20260408"
+  version: "6.3.0.20260508"
 
 package:
   name: types-bleach
@@ -10,10 +10,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/t/types-bleach/types_bleach-${{ version }}.tar.gz
-  sha256: 05d8e0cbb8ee4ffd81f4b242818beaa7fe81c3b203c1cee154564a18fbb2d537
+  sha256: 2d1b6b5baf99fe330af28040e9f688d12fea0ac65657669f850bb687c65b1509
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script:
     - ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation --disable-pip-version-check

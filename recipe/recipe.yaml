@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "6.4.0.20260607"
+  version: "6.4.0.20260728"
 
 package:
   name: types-bleach
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/t/types-bleach/types_bleach-${{ version }}.tar.gz
-  sha256: 62ff099b9d25fbcccb1402651c14a465a5f54a24138be987442d2eed38aca91c
+  sha256: 526a4fec997514bf3fe989ef59b86ec694bbb2ed70db22c59b622eb5a9b80fae
 
 build:
   number: 0
